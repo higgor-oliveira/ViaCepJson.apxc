@@ -2,7 +2,9 @@
 
 public class ViaCepJson {
     @AuraEnabled public String cep;
+    
     @AuraEnabled public String logradouro;
+    
     @AuraEnabled public String complemento; /* ATRIBUTOS DO NOSSO RETORNO */
     @AuraEnabled public String bairro;
     @AuraEnabled public String localidade;
